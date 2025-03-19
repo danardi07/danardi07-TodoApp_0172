@@ -14,6 +14,7 @@ class _ProfilPageState extends State<ProfilPage> {
   List<String> listTugas = [];
   List<bool> listStatus = []; 
 
+
   void addData() {
     setState(() {
       if (_taskController.text.isNotEmpty) {
@@ -36,10 +37,10 @@ class _ProfilPageState extends State<ProfilPage> {
                 children: [
                   CircleAvatar(
                     radius: 40,
-                    backgroundImage: AssetImage('./assets/images/robben.jpg'),
+                    backgroundImage: AssetImage('./assets/images/profil.jpg'),
                   ),
                   SizedBox(width: 10),
-                  Text('Patrick Star'),
+                  Text('Danar Adi Nugroho'),
                 ],
               ),
               Form(
